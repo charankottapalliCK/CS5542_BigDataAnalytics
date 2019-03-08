@@ -21,7 +21,7 @@ def elapsed(sec):
 
 
 # Text file containing words for training
-training_file = "belling_the_cat.txt"
+training_file = "wiki.txt"
 
 # Reading the data from file splitting lines and words
 def read_data(fname):
