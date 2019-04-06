@@ -39,7 +39,7 @@ def extract_features(directory):
 
 
 # extract features from all images
-directory = 'C:\\Users\\vidiy\\Desktop\\BDA\\class\\Lab 3\\Show and tell\\data\\flickr8k_images'
+directory = '/Users/charankottapalli/Documents/GitHub/CS5542_BigDataAnalytics/Lab 3/Show and tell/data/flickr8k_images'
 features = extract_features(directory)
 print('Extracted Features: %d' % len(features))
 # save to file

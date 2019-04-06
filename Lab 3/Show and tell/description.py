@@ -76,7 +76,7 @@ def save_descriptions(descriptions, filename):
     file.close()
 
 
-filename = 'C:\\Users\\vidiy\\Desktop\\BDA\\class\\Lab 3\\Show and tell\\data\\token.txt'
+filename = '/Users/charankottapalli/Documents/GitHub/CS5542_BigDataAnalytics/Lab 3/Show and tell/data/token.txt'
 # load descriptions
 doc = load_doc(filename)
 # parse descriptions

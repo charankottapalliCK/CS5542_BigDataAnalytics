@@ -144,7 +144,7 @@ def evaluate_model(model, descriptions, photos, tokenizer, max_length):
 # prepare tokenizer on train set
 
 # load training dataset (6K)
-filename = 'C:\\Users\\vidiy\\Desktop\\BDA\\class\\Lab 3\\Show and tell\\data\\train.txt'
+filename = '/Users/charankottapalli/Documents/GitHub/CS5542_BigDataAnalytics/Lab 3/Show and tell/data/train.txt'
 train = load_set(filename)
 print('Dataset: %d' % len(train))
 # descriptions
@@ -161,7 +161,7 @@ print('Description Length: %d' % max_length)
 # prepare test set
 
 # load test set
-filename = 'C:\\Users\\vidiy\\Desktop\\BDA\\class\\Lab 3\\Show and tell\\data\\train.txt'
+filename = '/Users/charankottapalli/Documents/GitHub/CS5542_BigDataAnalytics/Lab 3/Show and tell/data/train.txt'
 test = load_set(filename)
 print('Dataset: %d' % len(test))
 # descriptions

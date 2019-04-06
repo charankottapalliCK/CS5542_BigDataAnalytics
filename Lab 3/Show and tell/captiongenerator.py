@@ -67,7 +67,7 @@ def create_tokenizer(descriptions):
 
 
 # load training dataset (6K)
-filename = 'C:\\Users\\vidiy\\Desktop\\BDA\\class\\Lab 3\\Show and tell\\data\\train.txt'
+filename = '/Users/charankottapalli/Documents/GitHub/CS5542_BigDataAnalytics/Lab 3/Show and tell/data/train.txt'
 train = load_set(filename)
 print('Dataset: %d' % len(train))
 # descriptions
