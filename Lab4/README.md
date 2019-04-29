@@ -22,7 +22,7 @@ This model is implemented using Tensorflow of the VIS + LSTM visual question ans
 After we have downloaded the required Annotations, Questions and Images with Caption dataset from MSCOCO dataset, I have placed them in a single directory named Data/
 
 ### Data Refining
-
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%205.27.55%20PM.png)
 
 1. Since the Data is huge(26MB!!), I have limited the dataset to only a few images with my set of keywords(sunflower, airplane, anchor, accordian, tuplis).
 
@@ -35,8 +35,9 @@ These results are then sent to a VGG-16 and Resnet model.
 
 5. Also a Vocab_file.json is created after execution of dataloader.py which consists of vocabulary dictionary for the questions, answers indices and , max_question_length
 
-## Usage
-#### Extract the Image features
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%205.32.59%20PM.png)
+
+### Extract the Image features
 
 #### Preprocess Questions/Answers
 
