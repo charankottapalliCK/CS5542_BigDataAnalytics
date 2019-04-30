@@ -38,21 +38,22 @@ These results are then sent to a VGG-16 and Resnet model.
 ![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%205.32.59%20PM.png)
 
 ### Extract the Image features
+The images features can be extracted using the already pretrained models such as VGG16 and Resnet. Weights are already defined more this in a file.
+Feature layer used here is pool5, block4,fc7
+
+The main purpose of using VGG16 is that the convolution and pooling layers are very well separated after each layer of convolution this makes the difference from other models. There are other models which have convolution layers first and then followed by pooling or softmax.
+ 
+Drawbacks of VGG16:
+1.It is quite slow to traint this model.
+2. The network architecture weights themselves are quite large concerning disk/bandwidth
+3. VGG16 is over 500 Megabytes. This makes deploying VGG a tiresome task
 
 #### Preprocess Questions/Answers
+Now we run the extract_features.py file which will generate the captions file which consists of image ids. I have minimized for a set of my keywords
 
+This creates following files depending upon which layer you are using for feature extraction in .h5 format.
 
-### Training the attention model
+Image Features are extracted succesfully
 
-  
-### Evaluating a trained model
+### Output screenshots
 
-
-## Generating Answers/Attention Distributions
-#### Pretrained Model
-
-## Sample Results
-
-
-
-## References
