@@ -44,12 +44,23 @@ Feature layer used here is pool5, block4,fc7
 The main purpose of using VGG16 is that the convolution and pooling layers are very well separated after each layer of convolution this makes the difference from other models. There are other models which have convolution layers first and then followed by pooling or softmax.
  
 #### Drawbacks of VGG16:
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%2010.24.24%20PM.png)
+
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%2010.24.35%20PM.png)
+
+#### Architecture of VGG16
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%209.26.23%20PM.png)
+
 1. It is quite slow to traint this model.
 2. The network architecture weights themselves are quite large concerning disk/bandwidth
 3. VGG16 is over 500 Megabytes. This makes deploying VGG a tiresome task
 
-#### Preprocess Questions/Answers
+### Preprocess Questions/Answers
 Now we run the extract_features.py file which will generate the captions file which consists of image ids. I have minimized for a set of my keywords
+
+#### Generation of test.json file
+![](https://github.com/charankottapalliCK/CS5542_BigDataAnalytics/blob/master/Lab4/documentation/Screen%20Shot%202019-04-29%20at%2010.25.01%20PM.png)
+
 
 This creates following files depending upon which layer you are using for feature extraction in .h5 format.
 
