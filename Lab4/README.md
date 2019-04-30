@@ -43,8 +43,8 @@ Feature layer used here is pool5, block4,fc7
 
 The main purpose of using VGG16 is that the convolution and pooling layers are very well separated after each layer of convolution this makes the difference from other models. There are other models which have convolution layers first and then followed by pooling or softmax.
  
-Drawbacks of VGG16:
-1.It is quite slow to traint this model.
+#### Drawbacks of VGG16:
+1. It is quite slow to traint this model.
 2. The network architecture weights themselves are quite large concerning disk/bandwidth
 3. VGG16 is over 500 Megabytes. This makes deploying VGG a tiresome task
 
